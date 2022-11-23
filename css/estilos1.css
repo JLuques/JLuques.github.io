@@ -1,0 +1,47 @@
+/* ESTILOS DIV INDEX */
+
+#header{
+    block-size:3px;
+    width:100%;
+    height:10%;
+    background:rgb(21, 147, 185);
+    text-align: center;
+    }	
+
+#data{
+    height:75%;
+    border: gray 1px inset;
+    clear: right;
+}
+
+#menlatleft{
+	padding:20px;
+	background:lightgray;
+	display:flex;
+	flex-direction:column;
+	margin: 0 auto;
+    width:20%;
+    float:left;
+    height:100%;
+    }
+
+#cartel{
+    padding:20px;
+	display:flex;
+	flex-direction:column;
+	margin: 0 auto;
+    height: 100%;
+    }
+    
+#footer{
+    width:100%;
+    height:15%;
+    background:rgb(56, 56, 56);
+    text-align: center;
+    clear:left;
+    }	
+
+/* ESTILOS DIV INDEX */
+/* ESTILOS DIV INDEX */
+/* ESTILOS DIV INDEX */
+/* ESTILOS DIV INDEX */
