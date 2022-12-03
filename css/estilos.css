@@ -5,7 +5,7 @@
     width:100%;
     height:10%;
     background:rgb(185, 129, 196);
-    border: gray 1px inset;
+    border: grey 1px inset;
     display: flex;
     flex-direction: row;
     }	
@@ -109,8 +109,6 @@ padding: 5px;
     flex-direction: row;
 }
 
-
-
 /* ESTILOS DIV POSTER */
 
 /* .pos1{
@@ -138,16 +136,38 @@ padding: 5px;
 /* ESTILOS TXT */
 
 .pur1{
-    color:#591474
+    color:#591474;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .pur2{
-    color:#330644
+    color:#330644;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .pur3{
-    color:#1a0222
+    color:#1a0222;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.wh{
+    color:white;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bl{
+    color:black;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.sub1{
+    font-size: 15px;
+    padding:20px 2px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* ESTILOS TXT VERTICAL & MARGINS */
 
 .vert1{
     writing-mode: vertical-lr;
@@ -201,4 +221,86 @@ padding: 5px;
 .pru1{
     display:flex;
     flex-direction: row;
+}
+
+/* ESTILOS NAV MENU */
+
+#primary_nav_wrap
+{
+	margin-top:15px;
+    position:absolute;
+    right:1%;
+    top:2%;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+	font-weight:bolder;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:rgb(185, 129, 196)
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#591474
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#591474;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
 }
